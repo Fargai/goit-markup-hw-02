@@ -1,15 +1,82 @@
-/* основний колір, заголавки #2E2F42 */
-/* колір тексту #434455 */
-/* колір лого #4D5AE5 та #2E2F42 */
-/* білий колір лого #F4F4FD */
-/* колір контактів #434455 */
-/* білий колір #FFFFFF */
-/* білий колір у футері #E7E9FC */
+:root {
+    --black-color: #2E2F42;
+    --grey-color: #434455;
+    --blue-color: #4D5AE5;
+    --withe-color: #FFFFFF;
+}
 
-/* фон 1  #2E2F42 */
-/* фон 2 #E5E5E5 */
-/* фон 3 #F4F4FD */
-/* маленький фон #FFFFFF */
+body {
+    color: #2E2F42;
+    background-color: #FFFFFF;
+}
 
-/* button #FFFFFF and backgr #4D5AE5 */
+a {
+    text-decoration: none;
+}
 
+.list {
+    list-style: none;
+} 
+
+/* Marking Header */
+.logo {
+    color: #2E2F42;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.logo-web {
+    color: #4D5AE5;
+}
+
+.site-nav {
+    color: #2E2F42;
+    text-decoration: none;
+}
+
+.site-nav .link:hover, .site-nav .link:focus {
+    color: #4D5AE5;
+}
+
+.contacts .contacts-mail {
+    color: #434455;
+    text-decoration: none;
+}
+
+.contacts .contacts-tel {
+    color: #434455;
+    text-decoration: none;
+}
+
+/* .contacts:hover {
+    color: #4D5AE5;
+} */
+
+.contacts .contacts-mail:hover,
+.contacts .contacts-mail:focus,
+.contacts .contacts-tel:hover,
+.contacts .contacts-tel:focus {
+    color: #4D5AE5;
+}
+
+/* .contacts .contacts-tel {
+    color: #434455;
+    text-decoration: none;
+} */
+
+/* Marking Main */
+.hero {
+    background-color: #2E2F42;
+    color: #FFFFFF;
+}
+
+.hero-title {
+    color: #FFFFFF;
+    text-transform: capitalize;
+}
+
+.team {
+    background-color: #F4F4FD;
+}
+
+/* Marking Footer */
