@@ -76,6 +76,13 @@ body {
     color: var(--withe-color);
     background-color: var(--primary-brend-color);
     border-radius: 4px;
+    font-family: Roboto, sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.19;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
 }
 .button.primary:hover,
 .button.primary:focus {
@@ -130,18 +137,19 @@ body {
 .button.secondary:focus {
     background: var(--primary-brend-color);
     color: var(--withe-color);
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
 }
 .cards .link {
     text-decoration: none;
     color: inherit;
 }
+
 .cards .link:hover,
 .cards .link:focus {
     color: var(--primary-brend-color);
-}
-/* .card-page {
-    color: var(--dark-color);
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 1.2;
 }
